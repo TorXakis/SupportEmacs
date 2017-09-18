@@ -1,6 +1,6 @@
 # SupportEmacs
-Support for editing TorXakis models on Emacs. Currently only syntax
-highlighting is supported.
+Support for editing TorXakis models on Emacs. Currently, this mode offers only
+syntax highlighting.
 
 ![Screenshot of torxakis mode](https://files.gitter.im/TorXakis/Lobby/FKOI/torxakis-mode.png)
 
