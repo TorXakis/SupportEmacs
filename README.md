@@ -1,2 +1,2 @@
 # SupportEmacs
-Support for edditing TorXakis models on Emacs
+Support for editing TorXakis models on Emacs
