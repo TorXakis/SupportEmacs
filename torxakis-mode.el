@@ -22,7 +22,8 @@
 ;; Define several category of keywords.
 (defvar torxakis-keywords-regexp)
 (setq torxakis-keywords-regexp
-      (rx (or "TYPEDEF"
+      (rx symbol-start
+          (or "TYPEDEF"
               "FUNCDEF"
               "PROCDEF"
               "ENDDEF"
@@ -41,8 +42,8 @@
               "IF"
               "THEN"
               "ELSE"
-              "FI"
-              )))
+              "FI")
+          symbol-end))
 
 (defvar torxakis-types-regexp)
 (setq torxakis-types-regexp
@@ -70,28 +71,32 @@
 
 (defvar torxakis-ops-regexp)
 (setq torxakis-ops-regexp
-      (rx (or "[["
-              "]]"
-              "["
-              "]"
-              "/\\"
-              "\\/"
-              "not"
-              "-"
-              "+"
-              "*"
-              "/"
-              "::"
-              "="
-              "|"
-              "##"
-              ">->"
-              "("
-              ")"
-              "?"
-              "!"
-              "{"
-              "}")))
+      (rx (group (or "[["
+                     "]]"
+                     "["
+                     "]"
+                     "/\\"
+                     "\\/"
+                     "not"
+                     "-"
+                     "+"
+                     "*"
+                     "/"
+                     "::"
+                     "::="
+                     "="
+                     "|"
+                     "##"
+                     "->"
+                     ">->"
+                     "|||"
+                     ">>>"
+                     "("
+                     ")"
+                     "?"
+                     "!"
+                     "{"
+                     "}"))))
 
 ;; Create the list for font-lock. Each category of keyword is given a
 ;; particular face
@@ -101,7 +106,7 @@
         (,torxakis-types-regexp 1 'font-lock-type-face)
         (,torxakis-channels-decl-regexp 1 'font-lock-builtin-face)
         (,torxakis-channels-use-regexp 1 'font-lock-builtin-face)
-        (,torxakis-ops-regexp 0 'font-lock-warning-face)
+        (,torxakis-ops-regexp 1 'font-lock-warning-face)
         ))
 
 (defvar torxakis-mode-syntax-table)
