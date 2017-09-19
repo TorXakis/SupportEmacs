@@ -42,7 +42,11 @@
               "IF"
               "THEN"
               "ELSE"
-              "FI")
+              "FI"
+              "PURPDEF"
+              "HIT"
+              "MISS"
+              "GOAL")
           symbol-end))
 
 (defvar torxakis-types-regexp)
