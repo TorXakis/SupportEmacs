@@ -46,7 +46,8 @@
               "PURPDEF"
               "HIT"
               "MISS"
-              "GOAL")
+              "GOAL"
+              "HIDE")
           symbol-end))
 
 (defvar torxakis-types-regexp)
