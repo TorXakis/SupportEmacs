@@ -47,7 +47,9 @@
               "HIT"
               "MISS"
               "GOAL"
-              "HIDE")
+              "HIDE"
+              "NI"
+              "SYNC")
           symbol-end))
 
 (defvar torxakis-types-regexp)
@@ -96,6 +98,7 @@
                      ">->"
                      "|||"
                      ">>>"
+                     "=>>"
                      "("
                      ")"
                      "?"
