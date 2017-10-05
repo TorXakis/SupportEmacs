@@ -56,7 +56,7 @@
 
 (defvar torxakis-types-regexp)
 (setq torxakis-types-regexp
-      (rx (or "::" "TYPEDEF")
+      (rx (or "::" "TYPEDEF" "#")
           (one-or-more space)
           (group symbol-start
                  (one-or-more alpha)
