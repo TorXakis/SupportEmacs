@@ -49,7 +49,9 @@
               "GOAL"
               "HIDE"
               "NI"
-              "SYNC")
+              "SYNC"
+              "EXIT"
+              "ACCEPT")
           symbol-end))
 
 (defvar torxakis-types-regexp)
