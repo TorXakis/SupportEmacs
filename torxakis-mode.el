@@ -51,7 +51,13 @@
               "NI"
               "SYNC"
               "EXIT"
-              "ACCEPT")
+              "ACCEPT"
+              "STAUTDEF"
+              "VAR"
+              "STATE"
+              "INIT"
+              "TRANS"
+              )
           symbol-end))
 
 (defvar torxakis-types-regexp)
