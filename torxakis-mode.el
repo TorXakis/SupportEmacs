@@ -57,6 +57,9 @@
               "STATE"
               "INIT"
               "TRANS"
+              "ISTEP"
+              "QSTEP"
+              "CONSTDEF"
               )
           symbol-end))
 
