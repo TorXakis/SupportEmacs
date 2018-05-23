@@ -38,6 +38,7 @@
               "HOST"
               "PORT"
               "CLIENTSOCK"
+              "SERVERSOCK"
               "BEHAVIOUR"
               "IF"
               "THEN"
