@@ -29,6 +29,7 @@
               "ENDDEF"
               "CHANDEF"
               "MODELDEF"
+              "MAPPERDEF"
               "CNECTDEF"
               "CHAN"
               "ENCODE"
