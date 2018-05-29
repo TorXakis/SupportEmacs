@@ -1,6 +1,6 @@
 ;;; torxakis-mode.el --- Major mode for edditing TorXakis models.
 
-;; Copyright © 2017, TNO
+;; Copyright © 2017 - 2018, TNO
 
 ;; Author: Damian Nadales ( damian.nadales@gmail.com )
 ;; Version: 0.0.1
