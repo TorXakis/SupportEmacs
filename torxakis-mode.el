@@ -45,6 +45,7 @@
               "THEN"
               "ELSE"
               "FI"
+              "LET"
               "PURPDEF"
               "HIT"
               "MISS"
